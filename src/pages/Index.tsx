@@ -53,9 +53,11 @@ const Index = () => {
             {/* Profile Picture */}
             <div className="relative w-48 h-48 mx-auto mb-8">
               <div className="w-full h-full rounded-full bg-gradient-primary p-1 animate-pulse-glow">
-                <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-6xl font-bold text-primary">
-                  SL
-                </div>
+                <img 
+                  src="/lovable-uploads/2e47fb3f-99d8-48e4-b645-4fabd97885e7.png" 
+                  alt="Sujalkumar Lukhi - Data Analyst"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               <div className="absolute -top-4 -right-4 w-12 h-12 bg-accent rounded-full flex items-center justify-center animate-float">
                 <BarChart3 className="w-6 h-6 text-accent-foreground" />
