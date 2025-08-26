@@ -64,10 +64,8 @@ const Index = () => {
               </div>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Sujalkumar Lukhi
-              </span>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
+              Sujalkumar Lukhi
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
