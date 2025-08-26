@@ -54,7 +54,7 @@ const Index = () => {
             <div className="relative w-48 h-48 mx-auto mb-8">
               <div className="w-full h-full rounded-full bg-gradient-primary p-1 animate-pulse-glow">
                 <img 
-                  src="/lovable-uploads/2e47fb3f-99d8-48e4-b645-4fabd97885e7.png" 
+                  src="/lovable-uploads/2efc669b-29c5-4c92-95e6-bc8d87eabb85.png" 
                   alt="Sujalkumar Lukhi - Data Analyst"
                   className="w-full h-full rounded-full object-cover"
                 />
