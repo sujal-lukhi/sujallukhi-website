@@ -131,7 +131,7 @@ const Index = () => {
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-card">
         <div className="container mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
             About Me
           </h2>
           
@@ -195,7 +195,7 @@ const Index = () => {
       {/* Skills Section */}
       <section id="skills" className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
             Skills & Expertise
           </h2>
           
@@ -251,7 +251,7 @@ const Index = () => {
       {/* Services Section */}
       <section id="services" className="py-20 px-4 bg-card">
         <div className="container mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
             Services
           </h2>
           
@@ -301,7 +301,7 @@ const Index = () => {
       {/* Portfolio Section */}
       <section id="portfolio" className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
             Featured Projects
           </h2>
           
@@ -356,7 +356,7 @@ const Index = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 bg-card">
         <div className="container mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-foreground">
             Let's Connect
           </h2>
           
