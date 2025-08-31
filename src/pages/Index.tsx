@@ -106,17 +106,17 @@ const Index = () => {
 
           {/* Floating Analytics Icons */}
           <div className="absolute top-1/2 left-10 animate-float" style={{ animationDelay: '1s' }}>
-            <div className="w-16 h-16 bg-card rounded-lg flex items-center justify-center shadow-glow">
+            <div className="w-16 h-16 bg-background/90 border border-border rounded-lg flex items-center justify-center shadow-glow">
               <PieChart className="w-8 h-8 text-primary" />
             </div>
           </div>
           <div className="absolute top-1/3 right-10 animate-float" style={{ animationDelay: '2s' }}>
-            <div className="w-16 h-16 bg-card rounded-lg flex items-center justify-center shadow-glow">
+            <div className="w-16 h-16 bg-background/90 border border-border rounded-lg flex items-center justify-center shadow-glow">
               <TrendingUp className="w-8 h-8 text-accent" />
             </div>
           </div>
           <div className="absolute bottom-1/3 left-1/4 animate-float" style={{ animationDelay: '3s' }}>
-            <div className="w-12 h-12 bg-card rounded-lg flex items-center justify-center shadow-glow">
+            <div className="w-12 h-12 bg-background/90 border border-border rounded-lg flex items-center justify-center shadow-glow">
               <Database className="w-6 h-6 text-primary" />
             </div>
           </div>
@@ -308,7 +308,11 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="bg-card border-border hover:shadow-glow transition-all duration-300 group overflow-hidden">
               <div className="h-48 bg-gradient-primary flex items-center justify-center">
-                <BarChart3 className="w-20 h-20 text-primary-foreground opacity-50" />
+                <img 
+                  src="/lovable-uploads/0dd1572f-d756-4f15-aada-0cd16fc97916.png" 
+                  alt="E-Commerce Sales Dashboard"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-semibold mb-3">E-Commerce Dashboard</h3>
@@ -330,7 +334,11 @@ const Index = () => {
 
             <Card className="bg-card border-border hover:shadow-glow transition-all duration-300 group overflow-hidden">
               <div className="h-48 bg-gradient-to-br from-accent to-primary flex items-center justify-center">
-                <PieChart className="w-20 h-20 text-white opacity-50" />
+                <img 
+                  src="/lovable-uploads/17cf700e-a938-47f7-88e7-695779635de9.png" 
+                  alt="Hospital Emergency Room Dashboard"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-semibold mb-3">Hospital Management Dashboard</h3>
