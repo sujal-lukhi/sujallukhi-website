@@ -30,7 +30,7 @@ const Index = () => {
       {/* Top Banner */}
       <div className="w-full bg-gradient-primary py-3 px-4">
         <div className="container mx-auto text-center">
-          <p className="text-white font-medium text-sm md:text-base drop-shadow-sm">
+          <p className="text-white font-bold text-sm md:text-base drop-shadow-lg bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
             🚀 Data Analyst • Python Developer • Currently Available for Opportunities
           </p>
         </div>
@@ -39,17 +39,15 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-12 w-full z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary">
-              SL
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <button onClick={() => scrollToSection('home')} className="hover:text-primary transition-colors">Home</button>
-              <button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">About</button>
-              <button onClick={() => scrollToSection('skills')} className="hover:text-primary transition-colors">Skills</button>
-              <button onClick={() => scrollToSection('services')} className="hover:text-primary transition-colors">Services</button>
-              <button onClick={() => scrollToSection('portfolio')} className="hover:text-primary transition-colors">Portfolio</button>
-              <button onClick={() => scrollToSection('contact')} className="hover:text-primary transition-colors">Contact</button>
+          <div className="flex items-center justify-center">
+            <div className="flex items-center space-x-2">
+              <button onClick={() => scrollToSection('home')} className="px-4 py-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg border border-border transition-all duration-300">Home</button>
+              <button onClick={() => scrollToSection('about')} className="px-4 py-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg border border-border transition-all duration-300">About</button>
+              <button onClick={() => scrollToSection('skills')} className="px-4 py-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg border border-border transition-all duration-300">Skills</button>
+              <button onClick={() => scrollToSection('services')} className="px-4 py-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg border border-border transition-all duration-300">Services</button>
+              <button onClick={() => scrollToSection('portfolio')} className="px-4 py-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg border border-border transition-all duration-300">Portfolio</button>
+              <button className="px-4 py-2 bg-accent/10 hover:bg-accent hover:text-accent-foreground rounded-lg border border-border transition-all duration-300">Resume</button>
+              <button onClick={() => scrollToSection('contact')} className="px-4 py-2 bg-primary/10 hover:bg-primary hover:text-primary-foreground rounded-lg border border-border transition-all duration-300">Contact</button>
             </div>
           </div>
         </div>
