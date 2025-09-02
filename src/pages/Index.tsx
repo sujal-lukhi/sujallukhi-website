@@ -30,7 +30,7 @@ const Index = () => {
       {/* Top Banner */}
       <div className="w-full bg-gradient-primary py-3 px-4">
         <div className="container mx-auto text-center">
-          <p className="text-white font-bold text-sm md:text-base drop-shadow-lg bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
+          <p className="text-black font-bold text-sm md:text-base drop-shadow-lg">
             🚀 Data Analyst • Python Developer • Currently Available for Opportunities
           </p>
         </div>
